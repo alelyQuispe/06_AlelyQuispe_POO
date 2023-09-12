@@ -38,11 +38,11 @@ public class persona {
         return edad;
     }
     //metodo retorno Double
-     public void setAltura(double altura) {
+     public void Altura(double altura) {
         this.altura = altura;
     }
 
-    public double getAltura() {
+    public double Altura() {
         return altura;
     }
     //metodo1
