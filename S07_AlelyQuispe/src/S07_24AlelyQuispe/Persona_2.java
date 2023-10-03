@@ -43,7 +43,7 @@ public class Persona_2 {
         return altura;
     }
 
-    // Método para verificar si la persona es mayor de edad
+    // Método para identificar la edad
     public boolean esMayorDeEdad() {
         return edad >= 18;
     }
