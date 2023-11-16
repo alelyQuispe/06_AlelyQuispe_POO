@@ -9,26 +9,20 @@ package S07_24AlelyQuispe;
  * @author Alely
  */
 public class Main_S07_24AlelyQuispe {
-
-    /*// Persona_1
     public static void main(String[] args) {
+        // Persona_1
         // Crear una nueva persona
         Persona_1 persona1 = new Persona_1("Juan", 30, 1.75);
         
         // Mostrar información de la persona
         persona1.mostrarInformacion();
-    }
-}*/
-
-
-// Persona_2
-    public static void main(String[] args) {
-        Persona_2 persona1 = new Persona_2("Ana", 25, 1.68);
+    
+        // Persona_2
+        Persona_2 persona2 = new Persona_2("Ana", 25, 1.68);
         
-        System.out.println("Nombre: " + persona1.Nombre());
-        System.out.println("Edad: " + persona1.Edad() + " años");
-        System.out.println("Altura: " + persona1.Altura() + " metros");
-
+        System.out.println("Nombre: " + persona2.Nombre());
+        System.out.println("Edad: " + persona2.Edad() + " años");
+        System.out.println("Altura: " + persona2.Altura() + " metros");
     }
 }
     
